@@ -1,3 +1,7 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com"> */
+/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> */
+/* <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=VT323&display=swap" rel="stylesheet"> */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=VT323&display=swap');
 .container {
   padding: 0 2rem;
 }
@@ -108,9 +112,323 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+
+
+
+/* Hamz */
+.one{
+  display: block;
+  box-sizing: border-box;
+  /* font-family: Gilroy; */
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: rgb(242,242,242);
+  background: #16191b;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14pt;
+
+}
+.two{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+}
+.span{
+  color: green;
+}
+.span p{
+  max-width: 350px;
+}
+.span h1{
+  color: #0070f3;
+}
+.navv{
+  position: relative;
+  top: 0;
+  margin: 0%;
+  cursor: pointer;
+  color: #77ff07;
+  background-color: black;
+  width: 100%;
+}
+.navv ul {
+  width: 100%;
+
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navv ul div{
+  margin: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+
+}
+.navv ul div:hover{
+background-color: rgb(6, 74, 199);
+}
+/* page two for Next */
+.hamza{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(10, 10, 10);
+  color: rgb(7, 202, 7);
+  /* font-family: "Genos",monospace; */
+  /* font-family: 'M PLUS 1 Code', sans-serif; */
+  font-family: 'M PLUS 1 Code', sans-serif;
+  /* font-family: 'VT323', monospace; */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 15pt;
+  font-weight: normal;
+  border: 1px solid purple;
+}
+.hamza a{
+  font-family: 'VT323', monospace;
+  font-weight: lighter;
+  font-size: 30px;
+}
+.hassan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.samer{
+  margin: 20px 90px;
+  padding: 5px;
+}
+.samer p{
+  max-width: 600px;
+  
+}
+.samer h1{
+  color: #c5a205;
+  font-family: 'VT323', monospace;
+  background-color: black;
+  width: fit-content;
+  border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+
+}
+.samer h2{
+  color: hsl(230deg, 100%, 67%);
+  font-family: "Genos",monospace;
+  max-width: max-content;
+}
+.samer span{
+  font-family: 'VT323', monospace;
+  color: #a5a5a59c;
+  font-size: small;
+  margin: 0%;
+  padding: 0%;
+}
+.dos{
+  
+  border:1px solid hsl(295, 87%, 49%);
+  background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    padding:30px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;   */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    /* //   backgroundColor: "rgb(29, 31, 30)", */
+
+
+     /* boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px" */
+}
+.maze{
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.paza{
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
+   background-color: rgb(29, 31, 30);
+   /* overflow: hidden; */
+   font-size: 10px;
+  align-content: center;
+  justify-content: center;
+  width: max-content;
+  height: max-content;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+@media (max-width:1080px) {
+  .span p {
+    max-width: 400px;
+  }
+  .hassan p{
+    max-width: 600px;
   }
 }
+
+@media (max-width: 650px) {
+  .one  {
+    max-width: 350px;
+    padding: 0px 310px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+  }
+  .two{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .navv{
+  width: 620px;
+  }
+  .hamza{
+    width: 650px;
+  }
+  .hassan{
+    width: 100%;
+  }
+  .dos{
+    width: 750px;
+  }
+  .samer{
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    padding: 2px;
+  }
+  .hassan p{
+    width: 100%;
+  }
+  .paza{
+  flex: 0 70%;
+
+  }
+}
+/* animations */
+.frem{
+  width: 27rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 23px;
+  box-shadow: 0px 0px 20px #0000007a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #303030 20%, #303030 40%, #ff00a5 50%, #ff2f00 55%, #004eff 70%, #00ffdc 100%);
+  background-size: 200% auto;
+  animation: shine 10s linear infinite;
+  transform: rotate(0deg);
+}
+.border::before{
+  /* content: "Loding Animation"; */
+  position: absolute;
+  height: 105%;
+  width: 105%;
+  border-radius: 25px;
+  background: #181818;
+  z-index: 1;
+  box-shadow: inset 20px 19px 20px #00000059;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d72a3e;
+  font-family: cursive;
+}
+
+@keyframes shine {
+  to{
+      background-position: 100% center;
+  }
+}
+/* glass effect */
+
+
+.card{
+  width: 300px;
+  height: 360px;
+  background: rgba(255,255,255,0.06);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-family: 'Poppins',sans-serif;
+  color: #fcfcfc;
+}
+
+.card h4{
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 25px 0px 10px 0px;
+}
+.card h6{
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.card img{
+  width: 22%;
+  margin-left: 39%;
+}
+.card h1{
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.card .container{
+  width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+}
+
+.card .container .details{
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.card .container .details:first-child{
+  border-right: 2px solid #fcfcfc;
+} 
