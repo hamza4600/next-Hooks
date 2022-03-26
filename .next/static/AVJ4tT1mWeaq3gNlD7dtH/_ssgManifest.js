@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fnextjs\u002Fposts","\u002Fnextjs\u002Fuserlist","\u002Fnextjs\u002Fposts\u002F[postId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
